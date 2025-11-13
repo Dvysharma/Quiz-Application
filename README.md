@@ -83,12 +83,6 @@ campus-connect-ai/
 └── README.md
 ```
 
-**How to add `campusconnectkey.json`:**
-1. Obtain the file from your Google Cloud Console (IAM & Admin > Service Accounts > Create Key).
-2. Place it at `campus-connect-ai/backend/keys/campusconnectkey.json` (or as required by your code).
-3. Never upload this file to GitHub or any public repository.
-4. For deployment, use environment variables for credentials instead of a file.
-
 
 ## Contributing
 
