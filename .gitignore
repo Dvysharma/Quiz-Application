@@ -1,0 +1,52 @@
+# Prevent secrets from being pushed
+campusconnectkey.json
+campus-connect-ai/backend/keys/campusconnectkey.json
+# .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.env
+.env
+.env.*
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# SSL/Certs
+*.pem
+*.key
+*.csr
+ssl/
+
+# Database
+*.sqlite3
+*.db
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore knowledge base backups
+knowledge_base.json.bak
